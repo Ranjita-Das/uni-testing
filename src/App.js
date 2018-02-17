@@ -11,7 +11,8 @@ class App extends Component{
     return(
       <div>
         <p>React element created!</p>
-        <Link page="https://www.facebook.com/" children="My Portfolio"/>
+        <Link page="https://facebook.github.io/jest/docs/en/mock-functions.html" children="My Portfolio"/>
+
         <DateComponent />
 
       </div>
