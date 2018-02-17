@@ -10,7 +10,7 @@ class App extends Component{
 
     return(
       <div>
-        <p>React element has been created!</p>
+        <p>React element created!!</p>
         <Link page="https://facebook.github.io/jest/docs/en/mock-functions.html" children="My Portfolio"/>
 
         <Heading />
