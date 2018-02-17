@@ -9,6 +9,8 @@ class heading extends React.Component{
         <div>{heading}</div>
         <div>50</div>
         <div>80</div>
+        <div>100</div>
+        <div>150</div>
       </div>
     )
   }
