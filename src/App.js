@@ -13,7 +13,7 @@ class App extends Component{
         <p>React element created!</p>
         <Link page="https://facebook.github.io/jest/docs/en/mock-functions.html" children="My Portfolio"/>
 
-        <DateComponent />
+        <DateComponent chumma={"chumma sending to test"}/>
 
       </div>
     )
