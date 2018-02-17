@@ -7,7 +7,7 @@ class DateComponent extends React.Component{
   }
 
   render(){
-    let date=24;
+    let date=35;
     return(
       <p>{date || 'Default'}</p>
     )
