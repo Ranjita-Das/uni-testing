@@ -11,7 +11,7 @@ class App extends Component{
     return(
       <div>
         <p>React element created!</p>
-        <Link page="https://www.ranjitadas.com/" children="My Portfolio"/>
+        <Link page="https://www.facebook.com/" children="My Portfolio"/>
         <DateComponent />
 
       </div>
