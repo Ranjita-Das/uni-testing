@@ -5,7 +5,11 @@ class heading extends React.Component{
   render(){
     let heading = "This is the heading"
     return(
-      <div>{heading}</div>
+      <div>
+        <div>{heading}</div>
+        <div>50</div>
+        <div>80</div>
+      </div>
     )
   }
 }

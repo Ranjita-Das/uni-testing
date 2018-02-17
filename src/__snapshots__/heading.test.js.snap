@@ -2,6 +2,14 @@
 
 exports[`renders heading correctly 1`] = `
 <div>
-  This is the heading
+  <div>
+    This is the heading
+  </div>
+  <div>
+    50
+  </div>
+  <div>
+    80
+  </div>
 </div>
 `;
