@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`renders date correctly 1`] = `
-<p>
-  45
-</p>
-`;
