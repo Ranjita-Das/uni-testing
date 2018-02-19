@@ -7,6 +7,9 @@
     "test": "jest",
     "start": "./node_modules/.bin/webpack-dev-server"
   },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js"
+  },
   "author": "Ranjita Das",
   "license": "ISC",
   "devDependencies": {
@@ -24,6 +27,10 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.9",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-15": "^1.0.5",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.1",
     "eslint": "^4.18.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-import-resolver-babel-module": "^4.0.0",
@@ -35,6 +42,7 @@
     "http-server": "^0.11.1",
     "i18next": "^10.4.1",
     "jest": "^22.3.0",
+    "jest-cli": "^22.3.0",
     "json-loader": "^0.5.7",
     "loader-utils": "^1.1.0",
     "mustache": "^2.3.0",
@@ -53,6 +61,7 @@
     "webpack-merge": "^4.1.1"
   },
   "dependencies": {
+    "jest-enzyme": "^4.2.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }
