@@ -22,7 +22,7 @@ class ToDoItem extends Component{
           {this.props.text}
         </div>
 
-        <button onClick={this.props.deleteToDo}>
+        <button className="button--delete" onClick={this.props.deleteToDo}>
           X
         </button>
       </div>

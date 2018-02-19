@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`to-do renders correctly changes class based on props.complete 1`] = `
+<div
+  className="to-do__item"
+>
+  <div
+    className="to-do__info--complete"
+  >
+    <input
+      checked={true}
+      className="to-do__completion"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    this is the text
+  </div>
+  <button
+    className="button--delete"
+    onClick={[Function]}
+  >
+    X
+  </button>
+</div>
+`;
+
+exports[`to-do renders correctly changes class based on props.complete 2`] = `
+<div
+  className="to-do__item"
+>
+  <div
+    className="to-do__info"
+  >
+    <input
+      checked={false}
+      className="to-do__completion"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    this is the text
+  </div>
+  <button
+    className="button--delete"
+    onClick={[Function]}
+  >
+    X
+  </button>
+</div>
+`;
