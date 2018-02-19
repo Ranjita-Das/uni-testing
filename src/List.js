@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import NewToDo from './NewToDo';
 import ToDo from './ToDoItem';
 
-export default class List extends Component {
+import './List.css';
+
+
+class List extends Component {
   constructor(props){
     super(props);
     this.state={
@@ -54,3 +57,19 @@ export default class List extends Component {
     );
   }
 }
+
+function myTestWrapper(WrappedComponent){
+    return class extends Component{
+      render(){
+        return(
+          <div style={{backgroundColor:"pink"}}>
+            <WrappedComponent />
+          </div>
+        )
+      }
+    }
+}
+
+List = myTestWrapper(List);
+
+export default List;

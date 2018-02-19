@@ -27,14 +27,38 @@ module.exports={
 
       },
       {
-        test: /\.css$/,
-        loader: "style-loader!css-loader!autoprefixer-loader",
-
+        test: /\.scss$/,
+        exclude: /{node_modules}/,
+        loader: "style-loader"
       },
+
       {
         test: /\.scss$/,
-        loader: "style-loader!css-loader!autoprefixer-loader!sass-loader",
+        exclude: /{node_modules}/,
+        loader: "css-loader"
+      },
 
+      {
+        test: /\.scss$/,
+        exclude: /{node_modules}/,
+        loader: "sass-loader"
+      },
+      {
+        test: /\.css$/,
+        exclude: /{node_modules}/,
+        loader: "style-loader"
+      },
+
+      {
+        test: /\.css$/,
+        exclude: /{node_modules}/,
+        loader: "css-loader"
+      },
+
+      {
+        test: /\.css$/,
+        exclude: /{node_modules}/,
+        loader: "sass-loader"
       }
     ]
 

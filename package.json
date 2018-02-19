@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "./node_modules/.bin/webpack-dev-server"
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "build": "react-scripts build",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js"
@@ -47,6 +50,7 @@
     "loader-utils": "^1.1.0",
     "mustache": "^2.3.0",
     "node-sass": "^4.7.2",
+    "node-sass-chokidar": "0.0.3",
     "nodemon": "^1.15.0",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "plop": "^1.9.1",
